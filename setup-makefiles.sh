@@ -1,6 +1,6 @@
 #!/bin/sh
-VENDOR=asus
-DEVICE=tf201
+VENDOR=pegatron
+DEVICE=chagall
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 

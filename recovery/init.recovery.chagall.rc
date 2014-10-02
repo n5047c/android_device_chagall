@@ -1,0 +1,21 @@
+on init
+    mkdir /sdcard
+    mkdir /staging
+    mkdir /btmac
+
+    mount ext4 /dev/block/mmcblk0p4 /cache wait nosuid nodev
+    chown system cache /cache
+    chmod 0770 /cache
+
+on boot
+
+#service mischelp /sbin/mischelp /dev/block/platform/sdhci-tegra.3/by-name/MC
+
+# Always start adbd on userdebug and eng builds
+on property:ro.debuggable=1
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor 04c5
+    write /sys/class/android_usb/android0/idProduct 133a
+    write /sys/class/android_usb/android0/enable 1
+    write /sys/class/android_usb/android0/iManufacturer Fujitsu
+    write /sys/class/android_usb/android0/iProduct M532

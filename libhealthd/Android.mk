@@ -17,11 +17,11 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES := healthd_board_cardhu.cpp
+LOCAL_SRC_FILES := healthd_board_chagall.cpp
 LOCAL_C_INCLUDES := system/core/healthd
 
 LOCAL_STATIC_LIBRARIES := libutils
 
-LOCAL_MODULE := libhealthd.cardhu
+LOCAL_MODULE := libhealthd.chagall
 
 include $(BUILD_STATIC_LIBRARY)

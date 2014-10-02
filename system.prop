@@ -1,7 +1,7 @@
 #
-# system.prop for tf201
+# system.prop for chagall
 #
-ro.carrier=wifi-only
+ro.carrier=unknown
 
 # don't preload OpenGL in Zygote, the Tegra drivers do not like it
 ro.zygote.disable_gl_preload=true

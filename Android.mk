@@ -22,6 +22,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),tf201)
+ifeq ($(TARGET_DEVICE),chagall)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

@@ -17,7 +17,7 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME "Asus Transformer Prime"
+#define BTM_DEF_LOCAL_NAME "Fujitsu M532"
 
 // Networking, Capturing, Object Transfer
 // MAJOR CLASS: COMPUTER

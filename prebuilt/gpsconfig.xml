@@ -55,6 +55,14 @@
     </task>
 </job>
 
+<!-- Pegatron HW RF verification with simulator -->
+<job id="Tracking_Sensitivity">
+    <task repeat="1000000">
+      <startup ignore_rom_alm="true"/>
+      <req_pos validfix="1"/>
+    </task>
+</job>
+
 <!-- Periodic Position with the ROM almanac ignored for simulator testing -->
 <job id="Simulator_Periodic">
     <task id="cont" repeat="1">

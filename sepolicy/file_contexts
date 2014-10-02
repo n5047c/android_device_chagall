@@ -3,7 +3,8 @@
 /dev/elan-iap                     u:object_r:elan_ip_device:s0
 /dev/knvmap                       u:object_r:knv_device:s0
 /dev/lightsensor                  u:object_r:sensors_device:s0
-/dev/mi1040                       u:object_r:camera_device:s0
+/dev/ce1502                       u:object_r:camera_device:s0
+/dev/mt9d115                      u:object_r:camera_device:s0
 /dev/ttyHS1                       u:object_r:gps_device:s0
 /dev/ttyHS2                       u:object_r:hci_attach_dev:s0
 
