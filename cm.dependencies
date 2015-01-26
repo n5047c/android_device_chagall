@@ -1,0 +1,6 @@
+[
+    {
+	"target_path": "kernel/pegatron/chagall",
+	"branch": "cm-11_stable"
+    }
+]

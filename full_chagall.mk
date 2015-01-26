@@ -21,11 +21,11 @@ PRODUCT_PACKAGES := \
 PRODUCT_PACKAGES += \
     	Camera
 
-# Inherit full-base
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-
 # Inherit from toro device
 $(call inherit-product, device/pegatron/chagall/device_chagall.mk)
+
+# Inherit full-base
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Configure as xhdpi device to prevent breaking without mdpi drawables
 PRODUCT_AAPT_CONFIG := normal mdpi hdpi xhdpi

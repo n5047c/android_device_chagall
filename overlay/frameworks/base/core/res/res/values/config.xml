@@ -292,4 +292,7 @@
     <!-- SD card is hot-pluggable on this device -->
     <bool name="config_batterySdCardAccessibility">false</bool>
 
+    <!-- bool value to for enabling motion accelerometer -->
+    <bool name="use_motion_accel">false</bool>
+
 </resources>

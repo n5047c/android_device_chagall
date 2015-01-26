@@ -134,8 +134,6 @@ vendor/firmware/bcm4329/fw_bcmdhd.bin
 vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin
 vendor/firmware/bcm4330/fw_bcmdhd.bin
 vendor/firmware/bcm4330/fw_bcmdhd_p2p.bin
-vendor/firmware/fw_bcmdhd_apsta.bin
-vendor/firmware/fw_bcmdhd.bin
 
 vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/libwvdrm_L1.so
