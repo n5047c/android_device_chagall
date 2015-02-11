@@ -1,11 +1,11 @@
-# Inherit device configuration for chagall.
-$(call inherit-product, device/pegatron/chagall/full_chagall.mk)
-
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # 3G stuff.
 $(call inherit-product, vendor/cm/config/telephony.mk)
+
+# Inherit device configuration for chagall.
+$(call inherit-product, device/pegatron/chagall/full_chagall.mk)
 
 #
 # Setup device specific product configuration.

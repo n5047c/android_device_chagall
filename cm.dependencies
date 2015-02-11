@@ -1,5 +1,6 @@
 [
     {
+	"repository": "android_kernel_chagall"
 	"target_path": "kernel/pegatron/chagall",
 	"branch": "cm-11_stable"
     }

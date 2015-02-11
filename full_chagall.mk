@@ -37,5 +37,5 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_chagall
 PRODUCT_DEVICE := chagall
-PRODUCT_BRAND := Pegatron
-PRODUCT_MODEL := Fujitsu M532
+PRODUCT_BRAND := Fujitsu
+PRODUCT_MODEL := M532

@@ -105,17 +105,12 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.opengles.version=131072 \
     persist.sys.usb.config=mtp,adb \
     ro.sf.lcd_density=160 \
-    ro.zygote.disable_gl_preload=true \
     ro.bq.gpu_to_cpu_unsupported=1
 
 # Tegra 3 spacific overrides
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.tegra.nvmmlite=1 \
     tf.enable=y
-
-# Prime spacific overrides
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.product.model=M532
 
 # media config xml file
 PRODUCT_COPY_FILES += \
@@ -133,7 +128,7 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, frameworks/native/build/tablet-dalvik-heap.mk)
 
 # Call the vendor to setup propiatory files
-$(call inherit-product-if-exists, vendor/pegatron/chagall/chagall-vendor.mk)
+#$(call inherit-product-if-exists, vendor/pegatron/chagall/chagall-vendor.mk)
 
 # Copy bcm4329 firmware
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4329/device-bcm.mk)
